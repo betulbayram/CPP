@@ -7,9 +7,7 @@ void printArray(int array[], int size){
     for (size_t i = 0; i < size; i++)
     {
         cout << array[i] << endl;
-    }
-    
-
+    } 
 }
 
 int main(){
