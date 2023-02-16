@@ -4,11 +4,9 @@
 int main(){
 
     Employee employee;
-    employee.id = 8;
-    employee.name = "Betul Bayram";
-    employee.salary = 0;
 
-    employee.showInfos();
+    employee.setName("Betul");
+    cout << "Name: " << employee.getName() << endl;
 
     return 0;
 }

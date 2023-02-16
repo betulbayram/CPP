@@ -7,3 +7,14 @@ void Employee::showInfos(){
     cout << "Salary: " << Employee::salary << endl;
 
 }
+
+void Employee::setName(string name){
+
+    Employee::name = name;
+
+}
+
+string Employee::getName(){
+
+    return Employee::name;
+}

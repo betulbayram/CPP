@@ -6,12 +6,17 @@ using namespace std;
 
 class Employee
 {
-    public:
-    string name;
-    int id;
-    int salary;
+    private:
+        string name;
+        int id;
+        int salary;
 
-    void showInfos();
+    public:
+        void showInfos();
+
+        void setName(string name);
+
+        string getName();
 };
 
 #endif
