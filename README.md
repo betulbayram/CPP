@@ -1,7 +1,7 @@
 ## CPP Basics and Examples
 ### FILE TREE
 ```bash
-	
+
 	|*** CPP
 		|-- arrays.cpp
 		|-- array_and_functions.cpp
@@ -45,6 +45,20 @@
 				|-- maximum.h
 			|*** vector
 				|-- main.cpp
+		|*** Exercises
+			|*** e15_5
+				|-- main.cpp
+			|*** e15_6
+				|*** a
+					|-- main.cpp
+				|*** b
+					|-- main.cpp
+			|*** e15_8
+				|-- main.cpp
+				|-- minimum.h
+			|*** e15_9
+				|-- main.cpp
+				|-- maximum.h
 		|*** OOP
 			|-- classes.cpp
 			|-- classes_methods.cpp
