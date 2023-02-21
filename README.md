@@ -1,7 +1,6 @@
 ## CPP Basics and Examples
 ### FILE TREE
 ```bash
-
 	|*** CPP
 		|-- arrays.cpp
 		|-- array_and_functions.cpp
@@ -39,7 +38,16 @@
 		|-- switch_case.cpp
 		|-- variables.cpp
 		|-- while_loops.cpp
+		|*** DataStructures
+			|*** linked_list
+			|*** queue
+			|*** stack
 		|*** Examples
+			|*** oop
+				|*** GradeBook
+					|-- GradeBook.cpp
+					|-- GradeBook.h
+					|-- main.cpp
 			|*** template
 				|-- main.cpp
 				|-- maximum.h
