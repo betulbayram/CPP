@@ -1,50 +1,26 @@
 #include<iostream>
 #include<string.h>
+#include "GradeBook.cpp"
+
 using namespace std;
-
-class GradeBook{
-
-    public:
-
-        void setCourseName(string name){
-
-            courseName = name;
-
-        }
-
-        string getCourseName(){
-
-            return courseName;
-
-        }
-
-
-        void displayMessage(){
-
-            cout << "Welcome to the Grade Book for " << getCourseName() << endl;
-
-        }
-
-    private:
-        string courseName;
-
-};
-
 
 int main(){
 
     string nameOfCourse;
-    GradeBook myGradeBook;
+    GradeBook gradeBook1("Data Structures");
+    GradeBook gradeBook2("Software Engineering");
 
-    cout << "Initial course name is: " << myGradeBook.getCourseName() << endl;
+
+    cout << "Initial course name is: " << gradeBook1.getCourseName() << endl;
+    cout << "Initial course name is: " << gradeBook2.getCourseName() << endl;
 
     cout << "Please enter the course name: ";
     getline(cin, nameOfCourse);
     cout << endl;
 
-    myGradeBook.setCourseName(nameOfCourse);
+    gradeBook1.setCourseName(nameOfCourse);
 
-    myGradeBook.displayMessage();
+    gradeBook1.displayMessage();
 
     return 0;
 }
