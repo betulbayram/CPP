@@ -5,11 +5,28 @@ using namespace std;
 class GradeBook{
 
     public:
-        void displayMessage(string courseName){
 
-            cout << "Welcome to the Grade Book for " << courseName << endl;
+        void setCourseName(string name){
+
+            courseName = name;
 
         }
+
+        string getCourseName(){
+
+            return courseName;
+
+        }
+
+
+        void displayMessage(){
+
+            cout << "Welcome to the Grade Book for " << getCourseName() << endl;
+
+        }
+
+    private:
+        string courseName;
 
 };
 
@@ -23,7 +40,9 @@ int main(){
     getline(cin, nameOfCourse);
     cout << endl;
 
-    myGradeBook.displayMessage(nameOfCourse);
+    myGradeBook.setCourseName(nameOfCourse);
+
+    myGradeBook.displayMessage();
 
     return 0;
 }
